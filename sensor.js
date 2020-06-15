@@ -55,7 +55,7 @@ function rtl433Server() {
   var readline = require('readline');
   var previousMessage;
   this.log("Spawning rtl_433");
-  var proc = childProcess.spawn('pkill rtl_433;/usr/local/bin/rtl_433', ['-q', '-F', 'json', '-C', 'si'], {
+  var proc = childProcess.spawn('cmd.exe', ['/c', 'rtl_433.exe', '-q', '-F', 'json', '-C', 'si'], {
     shell: true
   });
   readline.createInterface({
