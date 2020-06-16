@@ -13,7 +13,9 @@ For sensors, I'm using these
 * Also shows "not responding" if the sensor stops sending data
 * For temperature sensors, has ability to create temperature Alarms if the temperature exceeds a value
 
-I have tested this on both a Mac and a RPI3
+I have tested this on both a Mac and a RPI3. 
+
+This branch is my attempt at trying to get this to work on Win10. Need to add folder containing RTL_433.exe to the PATH environment variable. Modified sensor.js works but you cannot restart homebridge - have to stop and start. 
 
 ## Installation
 1.	Install Homebridge using
