@@ -13,7 +13,7 @@ For sensors, I'm using these
 * Also shows "not responding" if the sensor stops sending data
 * For temperature sensors, has ability to create temperature Alarms if the temperature exceeds a value
 
-I have tested this on both a Mac and a RPI3
+**Works on Windows 10.**
 
 ## Installation
 1.	Install Homebridge using
